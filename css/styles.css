@@ -234,16 +234,14 @@ body {
 }
 
 .feature-box-icon {
+  display: flex;
   width: 270px;
+
   height: 120px;
-  padding: 25px 100px;
+  justify-content: center;
+  align-items: center;
   background: #f5f4fa;
   border-radius: 4px;
-}
-
-.feature-icon {
-  height: 70px;
-  width: 70px;
 }
 
 .feature-title {
@@ -306,6 +304,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 .team-description {
@@ -338,7 +337,8 @@ body {
 .team-link-list {
   display: flex;
 
-  margin: 16px 32px 30px 32px;
+  justify-content: center;
+  margin-top: 16px;
 }
 
 .team-link-item:not(first-child) {
@@ -379,10 +379,11 @@ body {
 }
 
 .customer-link {
-  display: block;
+  display: flex;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
